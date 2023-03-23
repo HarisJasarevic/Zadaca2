@@ -92,6 +92,18 @@ public class Main {
 
         }
 
+        //Zadatak 6.
+
+        double numberX = 10.25;
+
+        double functionA = (((numberX + numberX) + 6) / 2) - numberX;
+
+        if ((functionA % 2) == 0) {
+            System.out.println("\nResult of functionA is divisible by 2: " + functionA);
+        } else {
+            System.out.println("\nResult od functionA is not divisible by 2: " + functionA);
+        }
+
     }
 }
 
